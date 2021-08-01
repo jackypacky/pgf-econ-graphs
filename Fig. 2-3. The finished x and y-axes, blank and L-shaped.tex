@@ -1,0 +1,31 @@
+\documentclass[12pt]{article}
+\linespread{1.25}
+\usepackage{times}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+\usetikzlibrary{positioning, arrows.meta}
+\usepgfplotslibrary{fillbetween}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+scale = 1.2,
+xmin = 0, xmax = 10,
+ymin = 0, ymax = 10,
+axis lines* = left,
+xtick = {0}, ytick = \empty,
+clip = false,
+]
+% Labels
+\node [right] at (current axis.right of origin) {$x$};
+\node [above] at (current axis.above origin) {$y$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+\textbf{Figure 2-3:} The finished x and y-axes, blank and L-shaped.
+
+\end{document}
