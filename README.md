@@ -1,3 +1,3 @@
 # pgf-econ-graphs
 
-This is the repository for my guide: "Using pgfplots to make economic graphs in LaTeX".
+This is the repository for the guide: "Using pgfplots to make economic graphs in LaTeX".
