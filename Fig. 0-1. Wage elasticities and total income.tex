@@ -29,23 +29,23 @@ clip = false,
 % Supply and Demand Curves
 \node [above] at (current axis.above origin) {Wage, $W$};
 \node [right] at (current axis.right of origin) {Labour, $Q$};
-\addplot[color = blue, very thick, opacity = 0.3] coordinates {(0,7.78)(10,3.33)};
-\addplot[color = blue, very thick] coordinates {(3,10)(7,1.11)};
-\addplot[color = red, very thick, opacity = 0.3] coordinates{(0,3.33)(10,7.78)};
-\addplot[color = red, very thick] coordinates{(3,1.11)(7,10)};
+\addplot[color = blue, very thick, opacity = 0.3] coordinates {(0, 7.78) (10, 3.33)};
+\addplot[color = blue, very thick] coordinates {(3, 10) (7, 1.11)};
+\addplot[color = red, very thick, opacity = 0.3] coordinates{(0, 3.33) (10, 7.78)};
+\addplot[color = red, very thick] coordinates{(3, 1.11) (7, 10)};
 
 % Wage Floor
-\addplot[color = black, dashed, thick] coordinates {(0,7.11)(10,7.11)};
+\addplot[color = black, dashed, thick] coordinates {(0, 7.11) (10, 7.11)};
 
 % Quantity and Price Lines
-\addplot[color = black, dashed, thick] coordinates {(0,5.56)(5,5.56)(5,0)};
-\addplot[color = black, dashed, thick] coordinates {(1.5,7.11)(1.5,0)};
-\addplot[color = black, dashed, thick] coordinates {(4.3,7.11)(4.3,0)};
-\addplot[color = black, dashed, thick] coordinates {(5.7,7.11)(5.7,0)};
-\addplot[color = black, dashed, thick] coordinates {(8.5,7.11)(8.5,0)};
+\addplot[color = black, dashed, thick] coordinates {(0, 5.56) (5, 5.56) (5, 0)};
+\addplot[color = black, dashed, thick] coordinates {(1.5, 7.11) (1.5, 0)};
+\addplot[color = black, dashed, thick] coordinates {(4.3, 7.11) (4.3, 0)};
+\addplot[color = black, dashed, thick] coordinates {(5.7, 7.11) (5.7, 0)};
+\addplot[color = black, dashed, thick] coordinates {(8.5, 7.11) (8.5, 0)};
 
 % Labels: E, L
-\addplot[color = black, mark = *, only marks, mark size = 3pt] coordinates {(1.5, 7.11)(4.3,7.11)(5,5.56)(5.7, 7.11)(8.5,7.11)};
+\addplot[color = black, mark = *, only marks, mark size = 3pt] coordinates {(1.5, 7.11) (4.3, 7.11) (5, 5.56) (5.7, 7.11) (8.5, 7.11)};
 \node [above=6pt] at (5, 5.56) {$E$};
 \node [above] at (1.5, 7.11) {$E^{\prime}_{WE}$};
 \node [above] at (4.8, 7.11) {$E^{\prime}_{WI}$};
