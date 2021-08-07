@@ -22,29 +22,29 @@ axis on top,
 clip = false,
 ]
 % Supply and Demand Curves
-\addplot[color=blue, very thick] coordinates {(1,9)(9,1)};
-\addplot[color=red, very thick] coordinates{(3,1)(6,9)};
+\addplot[color=blue, very thick] coordinates {(1, 9) (9, 1)};
+\addplot[color=red, very thick] coordinates{(3, 1) (6, 9)};
 
 % Quantity and Price Lines
-\addplot[color=black, dashed, thick] coordinates {(0,5.36)(4.64,5.36)(4.64,0)};
-\addplot[color=black, dashed, thick] coordinates {(0,2)(10,2)};
-\addplot[color=black, dashed, thick] coordinates {(3.38,2)(3.38,0)};
-\addplot[color=black, dashed, thick] coordinates {(8,2)(8,0)};
+\addplot[color=black, dashed, thick] coordinates {(0, 5.36) (4.64, 5.36) (4.64, 0)};
+\addplot[color=black, dashed, thick] coordinates {(0, 2) (10, 2)};
+\addplot[color=black, dashed, thick] coordinates {(3.38, 2) (3.38, 0)};
+\addplot[color=black, dashed, thick] coordinates {(8, 2) (8, 0)};
 
 % Coordinate points
-\addplot[color=black, mark=*, only marks, mark size=3pt] coordinates {(3.38,2)(4.64,5.36)(8,2)};
+\addplot[color=black, mark=*, only marks, mark size=3pt] coordinates {(3.38, 2) (4.64, 5.36) (8,2)};
 
 % Labels
 \node [right] at (10, 2) {Ceiling};
 
-\node [right] at (4.7,5.4) {$E$};
-\node [above left] at (3.38,2) {$E^{\prime}$};
+\node [right] at (4.7, 5.4) {$E$};
+\node [above left] at (3.38, 2) {$E^{\prime}$};
 
 \node [above] at (current axis.above origin) {Rent, $P$};
 \node [right] at (current axis.right of origin) {Apartments, $Q$};
 
-\node [right] at (9,1) {$D$};
-\node [right] at (6,9) {$S$};
+\node [right] at (9, 1) {$D$};
+\node [right] at (6, 9) {$S$};
 
 \node [left] at (0, 5.36) {$P_E$};
 \node [left] at (0, 2) {$P_c$};
