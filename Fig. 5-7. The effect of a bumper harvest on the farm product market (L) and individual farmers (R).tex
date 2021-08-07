@@ -27,18 +27,18 @@ clip = false,
 \fill[green, opacity = 0.1] (5.5, 0) -- (5.5, 3.67) -- (7, 3.67) -- (7, 0);
 
 % Supply and demand curves
-\addplot[color = blue, very thick] coordinates {(5,9)(8,1)};
-\addplot[color = red, very thick] coordinates{(3,1)(6,9)};
-\addplot[color = red, opacity = 0.3, very thick] coordinates{(6,1)(9,9)};
+\addplot[color = blue, very thick] coordinates {(5,9) (8,1)};
+\addplot[color = red, very thick] coordinates{(3,1) (6,9)};
+\addplot[color = red, opacity = 0.3, very thick] coordinates{(6,1) (9,9)};
 
 % Dashed lines
-\addplot[color = black, dashed, thick] coordinates {(0, 7.67)(15.5, 7.67)};
-\addplot[color = black, dashed, thick] coordinates {(0, 3.67)(15.5, 3.67)};
-\addplot[color = black, dashed, thick] coordinates {(5.5, 0)(5.5, 7.67)};
-\addplot[color = black, dashed, thick] coordinates {(7, 0)(7, 3.67)};
+\addplot[color = black, dashed, thick] coordinates {(0, 7.67) (15.5, 7.67)};
+\addplot[color = black, dashed, thick] coordinates {(0, 3.67) (15.5, 3.67)};
+\addplot[color = black, dashed, thick] coordinates {(5.5, 0) (5.5, 7.67)};
+\addplot[color = black, dashed, thick] coordinates {(7, 0) (7, 3.67)};
 
 % Coordinate points
-\addplot[color = black, mark = *, only marks, mark size = 3pt] coordinates {(5.5, 7.67)(7, 3.67)};
+\addplot[color = black, mark = *, only marks, mark size = 3pt] coordinates {(5.5, 7.67) (7, 3.67)};
 
 % Labels
 \node [right] at (current axis.right of origin) {Farm products, $Q$};
@@ -86,13 +86,13 @@ shift = {(axis cs: 17, 0)},
 \addplot [domain = 0:10, restrict y to domain = 0:10, samples = 400, color = teal, opacity = 0.3, very thick]{3.67};
 
 % Dashed lines
-\addplot[color = black, dashed, thick] coordinates {(3.68, 0)(3.68, 7.67)};
-\addplot[color = black, dashed, thick] coordinates {(5.45, 0)(5.45, 3.67)};
-\addplot[color = black, dashed, thick] coordinates {(0, 1)(5.45, 1)};
-\addplot[color = black, dashed, thick] coordinates {(0, 2)(3.68, 2)};
+\addplot[color = black, dashed, thick] coordinates {(3.68, 0) (3.68, 7.67)};
+\addplot[color = black, dashed, thick] coordinates {(5.45, 0) (5.45, 3.67)};
+\addplot[color = black, dashed, thick] coordinates {(0, 1) (5.45, 1)};
+\addplot[color = black, dashed, thick] coordinates {(0, 2) (3.68, 2)};
 
 % Coordinate points
-\addplot[color = black, mark = *, only marks, mark size = 3pt] coordinates {(3.68, 7.67)(5.45, 3.67)};
+\addplot[color = black, mark = *, only marks, mark size = 3pt] coordinates {(3.68, 7.67) (5.45, 3.67)};
 
 % Labels
 \node [right] at (current axis.right of origin) {Farm products, $q$};
