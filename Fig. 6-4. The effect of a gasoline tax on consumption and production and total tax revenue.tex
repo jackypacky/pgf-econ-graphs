@@ -27,17 +27,17 @@ clip = false,
 \fill[violet, opacity = 0.25] (4.14, 3)-- (5.05, 3.53) -- (4.14, 3.53);
 
 % Supply and demand curves
-\addplot[color = blue, very thick] coordinates {(3,9)(6,1)};
-\addplot[color = red, very thick] coordinates {(1,1)(9,6)};
-\addplot[color = red, opacity = 0.3, very thick] coordinates {(1,4)(9,9)};
+\addplot[color = blue, very thick] coordinates {(3,9) (6,1)};
+\addplot[color = red, very thick] coordinates {(1,1) (9,6)};
+\addplot[color = red, opacity = 0.3, very thick] coordinates {(1,4) (9,9)};
 
 % Dashed lines
-\addplot[color = black, dashed, thick] coordinates {(0, 5.96)(4.14, 5.96)(4.14, 0)};
-\addplot[color = black, dashed, thick] coordinates {(0, 3.53)(5.05, 3.53)(5.05, 0)};
-\addplot[color = black, dashed, thick] coordinates {(0, 3)(4.1, 3)};
+\addplot[color = black, dashed, thick] coordinates {(0, 5.96) (4.14, 5.96) (4.14, 0)};
+\addplot[color = black, dashed, thick] coordinates {(0, 3.53) (5.05, 3.53) (5.05, 0)};
+\addplot[color = black, dashed, thick] coordinates {(0, 3) (4.1, 3)};
 
 % Coordinate points
-\addplot[color = black, mark = *, only marks, mark size = 3pt] coordinates {(4.14, 5.96)(5.05, 3.53)};
+\addplot[color = black, mark = *, only marks, mark size = 3pt] coordinates {(4.14, 5.96) (5.05, 3.53)};
 
 % Labels
 \node [right] at (current axis.right of origin){Gasoline, $Q$};
